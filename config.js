@@ -15,11 +15,11 @@ global.suittag = ['584244568255']
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.Jadibts = true
-global.packname = '🎅🎄 𝙺𝚒𝚛𝚒𝚝𝚘-𝙱𝚘𝚝 𝙼𝙳 ✨⛄';
-global.botname = '🎁 𝗞𝗜𝗥𝗜𝗧𝗢-𝗕𝗢𝗧 𝗠𝗗 ⛄★.°🦌';
+global.packname = '🎅🎄 𝐆𝐔𝐄𝐑𝐑𝐀 𝐁𝐎𝐓  👑 ✨⛄';
+global.botname = '🎁 𝐆𝐔𝐄𝐑𝐑𝐀 𝐁𝐎𝐓  👑 ⛄★.°🦌';
 global.author = '🎄 𝑴𝒂𝒅𝒆 𝑩𝒚 𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 🎅❄️';
 global.dev = '🔔 © ρσɯҽɾҽԃ Ⴆყ 𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 🎁🎄';
-global.textbot = '🧦🎅 ᴋɪʀɪᴛᴏ-ʙᴏᴛ ᴍᴅ • 𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 ❄️🎄✨';
+global.textbot = '🧦🎅 𝐆𝐔𝐄𝐑𝐑𝐀 𝐁𝐎𝐓  👑 • 𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 ❄️🎄✨';
 global.etiqueta = '🎄 𝐀𝐥𝐞𝐣𝐚𝐧𝐝𝐫𝐨 🎅';
 global.ch = {
 ch1: '120363403593951965@newsletter',
