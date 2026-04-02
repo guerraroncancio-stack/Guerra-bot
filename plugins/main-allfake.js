@@ -28,9 +28,9 @@ console.log(`Error : ${e}`)
 }}
 
 //creador y otros
-global.creador = 'Wa.me/584244568255'
+global.creador = 'Wa.me/573102286030'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584244568255'
+global.asistencia = 'Wa.me/573102286030'
 global.listo = ' *Aquí tienes, shinobi ❛‿˂̵✧*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/nv87us.jpg')
 
@@ -51,16 +51,16 @@ global.error = '✖️'
 global.msm = '⚠︎'
 
 
-global.emoji0 = '🎄🎅✨'
-global.emoji1 = '🎁🎄❄️'
-global.emoji2 = '🦌🎅🎀'
-global.emoji3 = '⛄🎄🌟'
-global.emoji4 = '🔔🎁🎄'
-global.emoji5 = '🎅🎄🧦'
-global.emoji6 = '🎄🕯️🎁'
-global.emoji7 = '🎁🎄🍪'
-global.emoji8 = '🎄✨🎅'
-global.emoji9 = '🎀🎄🎁'
+global.emoji0 = '👑💻⚡'
+global.emoji1 = '🤖🔥🚀'
+global.emoji2 = '🛡️💎👾'
+global.emoji3 = '⚔️👑🔥'
+global.emoji4 = '💻🚀🎯'
+global.emoji5 = '👾⚡🛡️'
+global.emoji6 = '🔥💎🤖'
+global.emoji7 = '👑🚀💻'
+global.emoji8 = '⚡🛡️🔥'
+global.emoji9 = '💻👾👑'
 
 global.emojis = [emoji0, emoji1, emoji2, emoji3, emoji4, emoji5, emoji6, emoji7, emoji8, emoji9].getRandom()
 global.emoji = [emoji0, emoji1, emoji2, emoji3, emoji4, emoji5, emoji6, emoji7, emoji8, emoji9].getRandom()
@@ -69,40 +69,25 @@ global.emoji = [emoji0, emoji1, emoji2, emoji3, emoji4, emoji5, emoji6, emoji7, 
 global.wait = '✪ Espera un momento, soy lento...';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m'  
-let canal2 = 'https://whatsapp.com/channel/0029VayQwPsFnSzESZJ9Us3z'
+var canal = 'https://whatsapp.com/channel/0029Vb7ldkaKGGGMdqKACP0y'  
 var git = 'https://github.com/alejandroperez242425-maker'
 var github = 'https://github.com/alejandroperez242425-maker/Kirito-bot-MD' 
 let correo = 'bot@gmail.com'
 
 global.redes = [canal, canal2, git, github, correo].getRandom()
 
-global.canalIdM = ["120363403593951965@newsletter", "120363403593951965@newsletter"]
-global.canalNombreM = ["🎄𝐊𝐢𝐫𝐢𝐭𝐨-𝐁𝐨𝐭 𝐌𝐃 ✦ ᴜɴᴇᴛᴇ ᴀʟ ᴄᴀɴᴀʟ ⛄.", "🦌𝕂𝕚𝕣𝕚𝕥𝕠-𝔹𝕠𝕥 𝕄𝔻 - 𝚞𝚗𝚎𝚝𝚎 𝚊𝚕 𝚌𝚊𝚗𝚊𝚕.⛄"]
+global.canalIdM = ["20363419404216418@newsletter", "20363419404216418@newsletter"]
+global.canalNombreM = ["🚀FABIAN-GUERRA BOTS ✦ ᴜɴᴇᴛᴇ ᴀʟ ᴄᴀɴᴀʟ 💎.", "👑FABIAN-GUERRA BOTS - 𝚞𝚗𝚎𝚝𝚎 𝚊𝚕 𝚌𝚊𝚗𝚊𝚕.🤖"]
 global.channelRD = await getRandomChannel()
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶 𝑹𝑷𝑮◞ • ⚔
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 1: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 2: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 3: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 4: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 5: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 6: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 7: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌅'; break; case 8: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 9: hour = 'Lɪɴᴅᴀ Mᴀɴ̃ᴀɴᴀ 🌄'; break; case 10: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌤'; break; case 11: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌤'; break; case 12: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌤'; break; case 13: hour = 'Lɪɴᴅᴏ Dɪᴀ 🌤'; break; case 14: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌆'; break; case 15: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌆'; break; case 16: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌆'; break; case 17: hour = 'Lɪɴᴅᴀ Tᴀʀᴅᴇ 🌆'; break; case 18: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 19: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 20: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 21: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 22: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break; case 23: hour = 'Lɪɴᴅᴀ Nᴏᴄʜᴇ 🌃'; break;}
 global.saludo = hour;
 
-/*const imgs = [
-  'https://Kirito.my/media/images/6.png',
-  'https://Kirito.my/media/images/7.png',
-  'https://Kirito.my/media/images/8.png',
-  'https://Kirito.my/media/images/9.png',
-  'https://Kirito.my/media/images/10.png',
-  'https://Kirito.my/media/images/11.png',
-  'https://Kirito.my/media/images/12.png',
-  'https://Kirito.my/media/images/13.png'
-];*/
+/*const imgs = ['https://api.dix.lat/media/img_1775165960007_38VaI-Exa.jpg']
 
-const imgs = [
-`${kirito}/media/images/46916697_k.jpg`,
-`${kirito}/media/images/34233570_k.jpg`,
-`${kirito}/media/images/58665955_k.jpg`,
-`${kirito}/media/images/74829142_k.jpg`,
-`${kirito}/media/images/97506543_k.jpg`
-]
+const imgs = ['https://api.dix.lat/media/img_1775165960007_38VaI-Exa.jpg']
+
 
 global.img = imgs[Math.floor(Math.random() * imgs.length)];
 
