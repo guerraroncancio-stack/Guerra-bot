@@ -74,11 +74,11 @@ global.loadDatabase = async function loadDatabase() {
     return new Promise((resolve) => setInterval(async function() {
       if (!global.db.READ) {
         clearInterval(this);
-        resolve(global.db.data == null ? global.loadDatabase() : global.db.data);
+        resolve(global.db.data?.chats ? global.db.data : global.loadDatabase());
       }
     }, 1 * 1000));
   }
-  if (global.db.data !== null) return;
+  if (global.db.data?.chats && global.db.data?.users && global.db.data?.settings) return;
   global.db.READ = true;
   await global.db.read().catch(console.error);
   global.db.READ = null;
@@ -316,7 +316,7 @@ async function connectionUpdate(update) {
     await global.reloadHandler(true).catch(console.error);
     global.timestamp.connect = new Date;
   }
-  if (global.db.data == null) loadDatabase();
+  if (!global.db.data?.chats) loadDatabase();
   if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
     if (opcion == '1' || methodCodeQR) {
       console.log(chalk.green.bold(`[ ꗇ ]  Escanea este código QR`));
